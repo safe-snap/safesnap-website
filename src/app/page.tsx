@@ -147,9 +147,14 @@ export default function Home() {
           Privacy-first Chrome extension that automatically detects and protects personally identifiable information in screenshots.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <div className="px-6 py-3 rounded-full bg-zinc-200 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 font-medium">
-            Coming Soon on Chrome Web Store
-          </div>
+          <a 
+            href="https://chromewebstore.google.com/detail/safesnap/mafoblkngbhcejlgkclnhjhancgmbggh" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="px-6 py-3 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-medium hover:from-indigo-700 hover:to-purple-700 transition-all"
+          >
+            Add to Chrome
+          </a>
           <a 
             href="https://github.com/safe-snap/safesnap-chrome-extension" 
             target="_blank" 
